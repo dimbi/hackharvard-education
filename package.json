@@ -1,5 +1,5 @@
 {
-  "name": "peoplemigration",
+  "name": "kinderplace",
   "version": "0.0.1",
   "private": true,
   "engines": {
@@ -12,7 +12,6 @@
     "body-parser": "^1.5.2",
     "ejs": "*",
     "express": "4.x",
-    "request": "^2.47.0",
-    "underscore": "^1.7.0"
+    "request": "^2.47.0"
   }
 }
