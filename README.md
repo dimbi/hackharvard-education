@@ -1,4 +1,4 @@
-#Favorite Words On Couch DB
+#KinderPlace
 
 ## Getting Started
 
