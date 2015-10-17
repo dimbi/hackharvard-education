@@ -2,7 +2,7 @@
 var express = require("express");
 var Request = require('request');
 var bodyParser = require('body-parser');
-var _ = require('underscore');
+//var _ = require('underscore');
 
 //Create an 'express' object
 var app = express();
