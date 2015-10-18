@@ -1,0 +1,92 @@
+.circle-icon {
+  width: 20em;
+  height: 20em;
+  border-radius: 70%;
+  background-color: #2360a5;
+  border: 1px solid #fff;
+  opacity:50%;
+  }
+/******************************************************
+  AXIS
+******************************************************/
+
+.axis path, .axis line {
+  fill: none;
+  stroke: #fff;
+  shape-rendering: crispEdges;
+}
+
+.axis text {
+  font-family: sans-serif;
+  font-size: 10px;
+  fill: #888888;
+}
+
+path { 
+    /**stroke: #2360a5;**/
+    stroke-width: 2;
+    fill: none;
+}
+
+.axis path,
+.axis line {
+    fill: none;
+    stroke: grey;
+    stroke-width: 1;
+    shape-rendering: crispEdges;
+}
+
+.overlay {
+  fill: none;
+  pointer-events: all;
+}
+
+.text-overlay{
+  color:#888888;
+}
+
+.focus circle {
+  fill: none;
+  stroke: #888888;
+}
+
+
+/******************************************************
+  HISTOGRAM
+******************************************************/
+
+.bar rect {
+  /*fill: #4569A8;*/
+  fill: #fff;
+  shape-rendering: crispEdges;
+}
+
+.bar text {
+  font-family: sans-serif;
+  font-size: 10px;
+  fill: #fff;
+}
+
+.vert_line line {
+	stroke: #f23f3f;     /*Bright red*/
+	stroke-width: 3;
+  /*shape-rendering: crispEdges;*/
+}
+
+.vert_line text {
+  fill: #f23f3f;    /*Bright red*/
+} 
+
+/******************************************************
+  BUS LINE VIZ
+******************************************************/
+#subway-viz{
+  height:1000px;
+}
+
+.stopLabel{
+  color:#ffffff;
+  padding-top:150px;
+  padding-left:15px;
+}
+

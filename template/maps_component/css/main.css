@@ -1,0 +1,89 @@
+html, body{
+	padding: 0;
+	margin: 0;
+	height: 100%;
+	width: 100%;
+}
+
+h2, .h2{
+	font-size: 24 !important;
+}
+
+h4, .h4{
+	font-size: 16 !important;
+}
+
+#map-canvas { 
+	height: 100%; 
+	margin: 0; 
+	padding: 0;
+	width : 100%;
+	float : left;
+}
+
+#main-title{
+	height:50px;
+	text-align:center;
+}
+
+
+.panel-group{
+		overflow-y:scroll;
+		height:80%;
+		margin-bottom:0;
+}
+
+.panel-heading a:after {
+    font-family:'Glyphicons Halflings';
+    content:"\e114";
+    float: right;
+    color: grey;
+}
+
+.panel-heading a.collapsed:after {
+    content:"\e080";
+}
+
+
+#title-panel{
+	height:22%;
+	padding-left : .3%;
+	color:#ffffff;
+	font-weight: 400;
+}
+
+.light {
+	font-weight: 300;
+	color : #2360a5;
+}
+
+#panelContent {
+	position: absolute;
+	left: 10px;
+	top: 10px;
+	height:150px;
+	width:25%;
+	display: block;
+	transition: 0.25s linear;
+	-webkit-transition: 0.25s linear;
+	overflow: hidden;
+}
+
+
+li.key {
+    border-top-width: 15px;
+    border-top-style: solid;
+    font-size: .75em;
+    width: 20%;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.leaflet-cluster-anim .leaflet-marker-icon, .leaflet-cluster-anim .leaflet-marker-shadow {
+	-webkit-transition: -webkit-transform 0.3s ease-out, opacity 0.3s ease-in;
+	-moz-transition: -moz-transform 0.3s ease-out, opacity 0.3s ease-in;
+	-o-transition: -o-transform 0.3s ease-out, opacity 0.3s ease-in;
+	transition: transform 0.3s ease-out, opacity 0.3s ease-in;
+	}
+
+
