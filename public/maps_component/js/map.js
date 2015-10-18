@@ -25,7 +25,8 @@ L.geoJson(students, {
               '<h1 style="color:#000000;">'
               +'</h1><p class="light" style="color:#000000;">Students : '
               + (Math.floor((Math.random() * 10) + 1))
-              +' people</p>'
+              +' people</p><br>'
+              +'<a href="dashboard/html/volunteer_dashboard.html" class="btn btn-default btn-xl">Go to the class</a>'                    
         );
 	
 	    markers.addLayer(marker);
